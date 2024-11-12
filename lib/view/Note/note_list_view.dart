@@ -24,7 +24,6 @@ class _HomeState extends State<Home> {
     refreshNotes(widget.userId);
   }
 
-  // Fetch and refresh the list of notes from the database
   void refreshNotes(int userId) async {
     final value = await noteDatabase.getAllNotes(userId);
     setState(() {
@@ -32,7 +31,6 @@ class _HomeState extends State<Home> {
     });
   }
 
-  // Navigate to login page
   void logout() {
     Navigator.pushReplacement(
       context,
@@ -40,7 +38,6 @@ class _HomeState extends State<Home> {
     );
   }
 
-  // Navigate to the NoteView screen and refresh notes afterward
   goToNoteDetailsView({int? id , required int userId}) async {
     await Navigator.push(
       context,
@@ -49,7 +46,6 @@ class _HomeState extends State<Home> {
     refreshNotes(userId);
   }
 
-  // Delete a note with a confirmation dialog
   deleteNoteDialog({required int id , required int userId}) {
     showDialog(
         context: context,
