@@ -3,7 +3,7 @@ import 'package:coursework1_mad/model/note_model.dart';
 import 'package:coursework1_mad/controller/note_controller.dart';
 import 'package:coursework1_mad/view/Note/note_detailed_view.dart';
 import 'package:coursework1_mad/view/login/login_view.dart';
-import 'package:coursework1_mad/view/Note/note_detail_popup.dart'; // Import the popup view
+import 'package:coursework1_mad/view/Note/note_detail_popup.dart';
 
 class Home extends StatefulWidget {
   final int userId;

@@ -1,8 +1,7 @@
 import 'package:coursework1_mad/view/signup/signup_view.dart';
 import 'package:coursework1_mad/controller/auth_controller.dart';
 import 'package:flutter/material.dart';
-
-import '../Note/note_list_view.dart';
+import 'package:coursework1_mad/view/Note/note_list_view.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({Key? key}) : super(key: key);

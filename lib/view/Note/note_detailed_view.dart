@@ -1,8 +1,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:coursework1_mad/model/note_model.dart';
-
-import '../../controller/note_controller.dart';
+import 'package:coursework1_mad/controller/note_controller.dart';
 
 class NoteView extends StatefulWidget {
   const NoteView({super.key, this.noteId, required this.userId});
